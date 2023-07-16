@@ -1,74 +1,31 @@
-import React from "react";
-import "./about.css";
-import Menu from "../../menu/Menu";
+import React from 'react';
+import './about.css';
 
 const About = () => {
   return (
-    <div>
-      <Menu />
-
-      <div className="about">
-        <h2>About Landscaper NZ</h2>
+    <section className="about-section">
+      <div className="container">
+        <h2>About Lion's Mane NZ: A Gateway to Mushroom Magic</h2>
         <p>
-        Welcome to Landscaper NZ, your ultimate destination for showcasing the finest work,
-         unique projects, and remarkable triumphs of talented landscapers all across New Zealand.
-          We are dedicated to providing a platform where landscapers can elevate their profiles,
-           inspire others, and foster a vibrant community.
+        Welcome to Lion's Mane NZ, the one-stop resource for unearthing the wonders of Lion's Mane mushrooms. Our primary focus might rest on the majestic Lion's Mane, also known as Hericium erinaceus, but we remain fascinated by the entire spectrum of beneficial fungi.
         </p>
         <p>
-        Our mission is to celebrate the artistry and craftsmanship of landscapers while
-         highlighting the diverse landscapes found throughout New Zealand. Whether you're a 
-         landscaper in Auckland, Christchurch, Tauranga, Palmerston North, or any other location,
-          Landscaper NZ is here to connect you with fellow professionals and enthusiasts who
-           share your passion for transforming outdoor spaces.
-        </p>
-        
-        <p>
-        At Landscaper NZ, we believe that sharing experiences and lessons learned is invaluable
-         for personal and professional growth. Our landscapers have faced and overcome numerous
-          challenges, and we provide a space for them to showcase their exceptional projects 
-          and share the stories behind their success. Through our platform, you'll gain insight
-           into their creative processes, problem-solving techniques, and innovative ideas that 
-           push the boundaries of landscape design.
+        Lion's Mane mushrooms, named for their distinct shaggy appearance reminiscent of a lion's majestic mane, are a beacon of interest for their pronounced health-enhancing properties. While these enchanting mushrooms are not native to New Zealand, they have found a home here and captivated the hearts of mushroom enthusiasts and health-conscious individuals alike.
         </p>
         <p>
-        In addition to being a showcase platform, Landscaper NZ offers a range 
-        of resources to support landscapers in their journey. We provide both free
-         and paid tools that can enhance efficiency, streamline operations, and 
-         aid in project management. Our goal is to empower landscapers with the 
-         necessary tools and knowledge to excel in their craft.
-        </p>
-        
-        <p>
-        Not only is Landscaper NZ a hub for professionals, but it's also a 
-        valuable resource for potential landscaping customers seeking inspiration
-         for their own projects. Explore our extensive gallery of awe-inspiring 
-         landscapes, browse through profiles of skilled landscapers, and get inspired 
-         to bring your outdoor visions to life. Whether you're looking to transform 
-         a residential garden, commercial space, or public park, Landscaper NZ is
-          your go-to source for ideas and connections.
+        In various cultures, the Lion's Mane mushroom has been harnessed for its potential medicinal properties. This intriguing mushroom is often celebrated for its cognitive and neurological benefits. Studies suggest it might support brain health, enhancing aspects like memory, focus, and mental clarity. At the heart of these benefits are the compounds hericenones and erinacines, which are thought to stimulate nerve growth factor (NGF) production – a crucial component in nerve cell maintenance and regeneration.
         </p>
         <p>
-        We also extend our warm welcome to DIY enthusiasts who are eager to
-         learn more about landscaping and improve their own outdoor spaces. 
-         Our blog and educational resources offer practical tips, step-by-step 
-         guides, and expert advice to assist you in your DIY endeavors. Join 
-         our community and connect with like-minded individuals who share your
-          love for landscaping and outdoor living.
+        In addition to its neurological benefits, Lion's Mane mushroom has earned a reputation as a formidable ally for immune health. With its abundant bioactive substances, including polysaccharides and antioxidants, it potentially fortifies the immune system and boosts overall wellness.
+          </p>
+        <p>
+        At Lion's Mane NZ, we strive to offer reliable information and the highest quality Lion's Mane products. But we don't stop there. We're equally enthusiastic about exploring the vast universe of beneficial mushrooms, including the fascinating Pekepeke kiore, native to the forests of New Zealand.
         </p>
         <p>
-        Landscaper NZ is committed to fostering a supportive and collaborative
-         environment where landscapers can thrive, customers can find their 
-         perfect match, and DIY enthusiasts can learn and grow. Join us today 
-         and be a part of the vibrant world of New Zealand's landscaping community.
-        </p>
-        <p>
-        Remember, Landscaper NZ is not just a website; it's a celebration of 
-        creativity, resilience, and the transformative power of landscapes. Together, 
-        let's create outdoor spaces that inspire, enrich lives, and make a lasting impact.
+        Whether you're intrigued by the cognitive benefits of Lion's Mane, are seeking the finest mushroom supplements, or simply want to learn more about the marvelous world of medicinal mushrooms, we're here to guide you on this journey. With Lion's Mane NZ, uncover nature's well-kept secrets, and pave your path to enhanced well-being.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
