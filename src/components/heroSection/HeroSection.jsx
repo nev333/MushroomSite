@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './HeroSection.css';
+import logo from "../../images/newLogo.png";
 
 const HeroSection = () => {
-
   const handleNavClick = (target) => {
     scroll.scrollTo(target, {
       smooth: true,
@@ -14,8 +14,11 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="background-image"></div>
-      <div className="hero-content">
-        <h1>Lions Mane Mushroom NZ</h1>
+      <div className='logo-head'>
+        <img src={logo} alt='logo Head'/>
+      </div>
+      <div className='text-content'>
+        <h1>Lion's Mane Mushroom NZ</h1>
         <p>Unlocking the Power of Lion's Mane: Exploring the Benefits of this Remarkable Mushroom</p>
         <Link
             to="about"
@@ -24,7 +27,7 @@ const HeroSection = () => {
             offset={-70}
             duration={500}
             onClick={() => handleNavClick("#about")}
-          >
+        >
           <button className="hero-button">Learn More</button>
         </Link>
       </div>
@@ -33,3 +36,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

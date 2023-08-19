@@ -1,15 +1,53 @@
 .benefits-section {
-  background-color: #f5f5dc; /* Lighter beige color */
-  padding: 2rem;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #333;
-  line-height: 1.6;
+  margin-bottom: 12%;
 }
+
+.benefit-box {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.benefit-box.right {
+  flex-direction: row-reverse;
+}
+
+.icon-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  flex: 2;
+  padding: 1rem;
+  background: #f5f5dc;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: blue;  /* Make text blue */
+  text-decoration: underline; /* Add underline */
+  transition: transform 0.3s ease; /* Smooth transition for the growth effect */
+}
+
+.read-more:hover {
+  text-decoration: underline; /* Keep the underline even on hover */
+  transform: scale(1.1); /* Make it grow 10% larger on hover */
+}
+
 
 .benefits-section h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
+
+
+
 
 .benefits-section h3 {
   font-size: 2rem;
@@ -19,4 +57,10 @@
 .benefits-section p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
+}
+
+
+
+.icon {
+  font-size: 5rem;
 }

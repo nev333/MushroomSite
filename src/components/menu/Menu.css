@@ -6,14 +6,16 @@
 
 .menu {
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: calc(2rem * var(--scale)); /* Adjusted padding */
+   padding: calc(2rem * var(--scale)); 
+  
   background-color: #e4dfc9;
   transition: padding 0.5s ease;
+  height: 54px;
 }
 
 .logo {
@@ -35,7 +37,7 @@
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -94,7 +96,7 @@
   }
 
   .menu-items.active {
-    transform: translateX(0);
+    transform: translateX(55%);
   }
 
   .menu-item {
