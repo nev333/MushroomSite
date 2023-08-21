@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+  --scale: 1;
+}
+
+.menu {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding: calc(2rem * var(--scale)); 
+  
+  background-color: #e4dfc9;
+  transition: padding 0.5s ease;
+  height: 54px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: calc(100px * var(--scale));
+  height: calc(100px * var(--scale));
+  transition: width 0.5s ease, height 0.5s ease, transform 0.3s ease;
+}
+
+.logo a:hover img {
+  transform: scale(1.1);
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.menu-item {
+  margin-right: 1.5rem;
+  position: relative;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-item a {
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.hamburger-menu div {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #333333;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+@media screen and (max-width: 992px) {
+  .menu-items {
+    position: absolute;
+    top: 0;
+    background-color: #e4dfc9;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .menu-items.active {
+    transform: translateX(55%);
+  }
+
+  .menu-item {
+    margin: 1rem 0;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+}
