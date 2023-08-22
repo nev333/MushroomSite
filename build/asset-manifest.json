@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nev333/MushroomSite.git/static/css/main.f5807932.css",
+    "main.js": "/nev333/MushroomSite.git/static/js/main.028df4d4.js",
+    "static/js/787.d39bd657.chunk.js": "/nev333/MushroomSite.git/static/js/787.d39bd657.chunk.js",
+    "static/media/lionsMane4.jpg": "/nev333/MushroomSite.git/static/media/lionsMane4.06bbf9ab18103fb646b5.jpg",
+    "static/media/lionsMane2.jpg": "/nev333/MushroomSite.git/static/media/lionsMane2.177db09c84c96ca4e2ea.jpg",
+    "static/media/LionsManeLogoNew.png": "/nev333/MushroomSite.git/static/media/LionsManeLogoNew.255a7aedb85e583afe79.png",
+    "static/media/Chef.png": "/nev333/MushroomSite.git/static/media/Chef.ddc1ee353b3e0ee878dd.png",
+    "static/media/nzMush2.jpg": "/nev333/MushroomSite.git/static/media/nzMush2.f21de06f932fdaf0cfaf.jpg",
+    "static/media/newLogo.png": "/nev333/MushroomSite.git/static/media/newLogo.ccc21c2be111a8be2ee3.png",
+    "static/media/CoralTooth2.jpg": "/nev333/MushroomSite.git/static/media/CoralTooth2.25e766b5187569e023e4.jpg",
+    "index.html": "/nev333/MushroomSite.git/index.html",
+    "main.f5807932.css.map": "/nev333/MushroomSite.git/static/css/main.f5807932.css.map",
+    "main.028df4d4.js.map": "/nev333/MushroomSite.git/static/js/main.028df4d4.js.map",
+    "787.d39bd657.chunk.js.map": "/nev333/MushroomSite.git/static/js/787.d39bd657.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5807932.css",
+    "static/js/main.028df4d4.js"
+  ]
+}
