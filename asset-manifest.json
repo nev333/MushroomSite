@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9731b690.css",
-    "main.js": "/static/js/main.770d90ae.js",
-    "static/js/787.d39bd657.chunk.js": "/static/js/787.d39bd657.chunk.js",
-    "static/media/lionsmanemushrooms.png": "/static/media/lionsmanemushrooms.19c98bb5930b041ed557.png",
-    "static/media/Background.jpg": "/static/media/Background.25e41dc898e5458835b9.jpg",
-    "static/media/MushroomLogo.png": "/static/media/MushroomLogo.e36e9c531622415bcad7.png",
+    "main.css": "/static/css/main.c8c85548.css",
+    "main.js": "/static/js/main.a03b54b0.js",
+    "static/js/787.a6de56a5.chunk.js": "/static/js/787.a6de56a5.chunk.js",
+    "static/media/lionsMane4.jpg": "/static/media/lionsMane4.06bbf9ab18103fb646b5.jpg",
+    "static/media/lionsMane2.jpg": "/static/media/lionsMane2.177db09c84c96ca4e2ea.jpg",
+    "static/media/LionsManeLogoNew.png": "/static/media/LionsManeLogoNew.255a7aedb85e583afe79.png",
+    "static/media/Chef.png": "/static/media/Chef.ddc1ee353b3e0ee878dd.png",
+    "static/media/nzMush2.jpg": "/static/media/nzMush2.f21de06f932fdaf0cfaf.jpg",
+    "static/media/newLogo.png": "/static/media/newLogo.ccc21c2be111a8be2ee3.png",
+    "static/media/CoralTooth2.jpg": "/static/media/CoralTooth2.25e766b5187569e023e4.jpg",
     "index.html": "/index.html",
-    "main.9731b690.css.map": "/static/css/main.9731b690.css.map",
-    "main.770d90ae.js.map": "/static/js/main.770d90ae.js.map",
-    "787.d39bd657.chunk.js.map": "/static/js/787.d39bd657.chunk.js.map"
+    "main.c8c85548.css.map": "/static/css/main.c8c85548.css.map",
+    "main.a03b54b0.js.map": "/static/js/main.a03b54b0.js.map",
+    "787.a6de56a5.chunk.js.map": "/static/js/787.a6de56a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9731b690.css",
-    "static/js/main.770d90ae.js"
+    "static/css/main.c8c85548.css",
+    "static/js/main.a03b54b0.js"
   ]
 }
