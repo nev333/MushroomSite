@@ -9,6 +9,21 @@ import Menu from "./components/menu/Menu";
 import './App.css';
 import FooterSection from "./components/FooterSection/FooterSection";
 
+import ReactGA from 'react-ga';
+
+// Initialize Google Analytics
+ReactGA.initialize('G-0NE2GG0YEZ');
+
+// This function records a pageview each time the route changes.
+function logPageView() {
+  ReactGA.set({ page: window.location.pathname + window.location.search });
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
+// Call logPageView on every route change
+logPageView();
+
+
 function ScrollToTop() {
   const location = useLocation();
   
