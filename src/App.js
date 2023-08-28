@@ -20,15 +20,12 @@ function logPageView() {
   ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
-// Call logPageView on every route change
-logPageView();
-
-
 function ScrollToTop() {
   const location = useLocation();
   
   useEffect(() => {
     window.scrollTo(0, 0);
+    logPageView();  // Log the pageview with Google Analytics
   }, [location.pathname]);
 
   return null;
