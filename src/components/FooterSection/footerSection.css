@@ -9,7 +9,7 @@
   padding: 1rem;
   background-color: #e4dfc9;
   transition: padding 0.5s ease;
-  height: 3%;
+  height: 60px;
 }
 
 .container {
@@ -62,36 +62,7 @@
   transform: scale(1.1);
 }
 
-/* Responsive styles for tablet and mobile sizes */
 @media screen and (max-width: 992px) {
-  .footer-menu {
-    display: none; 
-  }
-
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-content p, .footer-disclaimer p, .footer-info p {
-    line-height: 1.2;  /* Reduced line-height for better spacing */
-    margin-bottom: 0.3rem;  /* Slight bottom margin for vertical spacing */
-  }
-
-  .footer-disclaimer, .footer-info {
-    margin-top: 0.3rem; /* Reduced spacing between the stacked elements */
-  }
-
-  .footer-info {
-    text-align: center; /* Centered text for .footer-info */
-  }
-
-  .footer {
-    height: 10%;
-    padding: 1rem 0;
-  }
-}
-@media screen and (max-width: 768px) {
   .footer-menu {
     display: none; 
   }
@@ -115,7 +86,7 @@
   }
 
   .footer {
-    height: 10%;
-    padding: 1rem 0;
+    height: auto;
+    padding: 0.5rem 0;
   }
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 
-:root {
-  --scale: 1;
+body {
+  overflow-x: hidden;
 }
 
 .menu {
@@ -11,11 +11,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-   padding: calc(2rem * var(--scale)); 
-  
+  padding: calc(2rem);
   background-color: #e4dfc9;
   transition: padding 0.5s ease;
   height: 54px;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -24,8 +24,8 @@
 }
 
 .logo img {
-  width: calc(100px * var(--scale));
-  height: calc(100px * var(--scale));
+  width: calc(100px);
+  height: calc(100px);
   transition: width 0.5s ease, height 0.5s ease, transform 0.3s ease;
 }
 
@@ -46,19 +46,11 @@
   position: relative;
 }
 
-.menu-item:last-child {
-  margin-right: 0;
-}
-
 .menu-item a {
   color: #333333;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.menu-item:hover {
-  transform: scale(1.1);
 }
 
 .hamburger-menu {
@@ -93,14 +85,11 @@
     padding: 2rem;
     box-sizing: border-box;
     width: 100%;
+    z-index: -1;
   }
 
   .menu-items.active {
-    transform: translateX(55%);
-  }
-
-  .menu-item {
-    margin: 1rem 0;
+    transform: translateX(0%);
   }
 
   .hamburger-menu {
