@@ -91,7 +91,7 @@ body {
   }
 
   .menu-items.active {
-    transform: translateX(0%);
+    transform: translateX(50%);
   }
 
   .hamburger-menu {

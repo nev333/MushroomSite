@@ -1,5 +1,6 @@
 .benefits-section {
   margin-bottom: 12%;
+  overflow: hidden;
 }
 
 .benefit-box {
