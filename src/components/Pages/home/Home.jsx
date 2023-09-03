@@ -30,7 +30,7 @@ const Home = () => {
       <header className="header" id="home">
         <HeroSection />
       </header>
-      <section className="about-section" id="about">
+      <section>
         <div className="container">
           {/* <About /> */}
           <BenefitsUses />

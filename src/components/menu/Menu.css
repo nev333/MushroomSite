@@ -18,6 +18,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;  /* Added */
   overflow: hidden;
+  
 }
 
 .logo {

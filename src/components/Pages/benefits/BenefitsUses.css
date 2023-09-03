@@ -1,12 +1,17 @@
 .benefits-section {
   margin-bottom: 12%;
+  overflow-x: hidden;
 }
 
 .benefit-box {
   display: flex;
   margin-bottom: 2rem;
   align-items: center;
+  box-sizing: border-box;  /* Added */
 }
+
+/* ... (other existing styles are untouched) ... */
+
 
 .benefit-box.right {
   flex-direction: row-reverse;
