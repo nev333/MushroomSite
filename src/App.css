@@ -11,9 +11,15 @@ body {
   overflow-x: hidden;
 }
 
+img, div {
+  max-width: 100%;
+  box-sizing: border-box;  /* Added */
+}
+
 .content {
   flex: 1 0 auto;
 }
+
 
 .App-logo {
   height: 40vmin;
