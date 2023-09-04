@@ -7,10 +7,12 @@
   display: flex;
   margin-bottom: 2rem;
   align-items: center;
+  /* overflow: hidden; */
 }
 
 .benefit-box.right {
   flex-direction: row-reverse;
+  /* overflow: hidden; */
 }
 
 .icon-container {
