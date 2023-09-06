@@ -14,7 +14,7 @@ body {
   padding: calc(2rem);
   background-color: #e4dfc9;
   transition: padding 0.5s ease;
-  height: min-content;
+  height: 7rem;
   overflow-x: hidden;
   box-sizing: border-box;  /* Added */
   overflow: hidden;
@@ -91,7 +91,7 @@ body {
   }
 
   .menu-items.active {
-    transform: translateX(0%);
+    transform: translateX(50%);
   }
 
   .hamburger-menu {

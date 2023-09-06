@@ -9,7 +9,7 @@
   padding: 1rem;
   background-color: #e4dfc9;
   transition: padding 0.5s ease;
-  height: min-content; /* Changed from '60px' */
+  height: 2rem; /* Changed from '60px' */
   overflow-x: hidden;
 }
 
@@ -64,6 +64,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .footer {
+  height: 4.5rem;
+  }
+  
   .footer-menu {
     display: none; 
   }

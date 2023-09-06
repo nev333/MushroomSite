@@ -1,5 +1,6 @@
 .benefits-section {
   margin-bottom: 12%;
+  overflow-x: hidden;
 }
 
 .benefit-box {
@@ -64,3 +65,46 @@
 .icon {
   font-size: 5rem;
 }
+
+/* Add a media query for small screens */
+@media screen and (max-width: 767px) {
+
+  /* Disable the flex-direction change for .benefit-box.right */
+  .benefit-box.right {
+    flex-direction: row; /* or whatever your default flex-direction is */
+  }
+
+  /* Reduce the font size for icons */
+  .icon {
+    font-size: 3rem;
+  }
+
+  /* Reduce the font size for headers and paragraphs */
+  .benefits-section h2 {
+    font-size: 2rem;
+  }
+
+  .benefits-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .benefits-section p {
+    font-size: 1rem;
+  }
+
+  /* Add fade-in animation instead of slide-in */
+  .benefit-box {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  /* Keyframes for fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
