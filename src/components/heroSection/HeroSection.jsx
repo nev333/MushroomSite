@@ -28,7 +28,7 @@ const HeroSection = () => {
             duration={500}
             onClick={() => handleNavClick("#about")}
         >
-          <button className="hero-button">Learn More</button>
+          <button className="button-one">Learn More</button>
         </Link>
       </div>
     </div>

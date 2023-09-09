@@ -12,20 +12,20 @@ const BlogTwo = () => {
         <p>
           Lion's Mane mushrooms (Hericium erinaceus) are a type of fungus that is known for their health benefits. They are a good source of antioxidants, and they have been shown to improve cognitive function, reduce anxiety and depression, and boost the immune system.
         </p>
-        <img className="blog-image" src={Chef} alt="Image description 1"/>
+        <img className="blog-image" src={Chef} alt="description 1"/>
         <h2>How to Cook Lion's Mane Mushrooms</h2>
         <p>
           Lion's Mane mushrooms are a versatile ingredient that can be cooked in a variety of ways. They can be sauteed, roasted, steamed, or even eaten raw.
         </p>
         <div className="flex-container">
-          <img className="blog-image-small" src={nzMush2} alt="Image description 2"/>
-          <p>
+          <img className="blog-image-small" src={nzMush2} alt="description 2"/>
+          
             <ul>
               <li>When sauteing, start with a hot pan and a small amount of oil. Cook the mushrooms over medium heat until they are browned on all sides.</li>
               <li>When roasting, preheat your oven to 400 degrees Fahrenheit. Toss the mushrooms with a little olive oil and your favorite seasonings. Roast for 20-25 minutes, or until the mushrooms are tender.</li>
               <li>When steaming, place the mushrooms in a steamer basket and steam for 5-7 minutes, or until the mushrooms are tender.</li>
             </ul>
-          </p>
+          
           <h2>
             Recipes
           </h2>

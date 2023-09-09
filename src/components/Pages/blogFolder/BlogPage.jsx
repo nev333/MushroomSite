@@ -9,7 +9,7 @@ const BlogPost = ({ id, title, image }) => {
       <div className="blog-post">
         <Link to={`/blog/${id}`}>
           <h4>{title}</h4>
-          <img className="blog-image" src={image} alt="Image description 1"/>
+          <img className="blog-image" src={image}  alt="description 1"/>
         </Link>
         {/* <p>Published on {date}</p> */}
       </div>

@@ -15,13 +15,13 @@ const BlogOne = () => {
                 <p>
                 The Lion's Mane mushroom (Hericium erinaceus) is a well-known mushroom that is being studied for a variety of potential health benefits. However, there is another mushroom that is closely related to Lion's Mane that is not as well-known: Hericium novae-zealandiae, or Pekepeke-kiore.
                 </p>
-                <img className="blog-image" src={nzMush} alt="Image description 1"/>
+                <img className="blog-image" src={nzMush} alt="description 1"/>
                 <h2>Understanding Lion's Mane and Hericium novae-zealandiae (Pekepeke-kiore)</h2>
                 <p>
                 Lion's Mane is native to North America, Europe, and Asia, while Pekepeke-kiore is only found in New Zealand. However, it is important to note that the mushroom that is commonly called Lion's Mane in New Zealand is actually a different species called Hericium novae-zealandiae. This species is closely related to Lion's Mane, but it has some key differences, such as a slightly different appearance and a different chemical composition.
                 </p>
                 <div className="flex-container">
-                    <img className="blog-image-small" src={nzMush2} alt="Image description 2"/>
+                    <img className="blog-image-small" src={nzMush2} alt="description 2"/>
                     <p>
                     Lion's Mane is native to North America, Europe, and Asia, while Pekepeke-kiore is only found in New Zealand. Lion's Mane has a slightly sweeter taste than Pekepeke-kiore, and it is also more commonly available in dried form.
                     </p>
