@@ -41,36 +41,37 @@ const benefitsData = [
 ];
 
 const BenefitsUses = () => {
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        offset: 200,
-        once: false,
-      });
-    }, []);
-  
-    return (
-      <div className="benefits-section">
-        <h2>Benefits and Uses of Lion's Mane Mushrooms</h2>
-        {benefitsData.map((benefit, index) => (
-          <div 
-            className={`benefit-box ${index % 2 === 0 ? 'left' : 'right'}`} 
-            key={index}
-            data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'} // AOS attributes
-            data-aos-anchor-placement="top-center" // when the animation is triggered
-          >
-            <div className="icon-container">{benefit.icon}</div>
-            <div className="text-container">
-              <h3>{benefit.title}</h3>
-              <p>{benefit.description}</p>
-              {/* <a href={benefit.link} className="read-more">Read more</a> */}
-            </div>
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 200,
+      once: false,
+    });
+  }, []);
+
+  const isSmallScreen = window.innerWidth <= 767;  // Check if it's a small screen
+
+  return (
+    <div className="benefits-section">
+      <h2>Benefits and Uses of Lion's Mane Mushrooms</h2>
+      {benefitsData.map((benefit, index) => (
+        <div 
+          className={`benefit-box ${index % 2 === 0 ? 'left' : 'right'}`} 
+          key={index}
+          data-aos={!isSmallScreen && (index % 2 === 0 ? 'fade-right' : 'fade-left')} // Only apply AOS if not on small screen
+          data-aos-anchor-placement="top-center" // when the animation is triggered
+        >
+          <div className="icon-container">{benefit.icon}</div>
+          <div className="text-container">
+            <h3>{benefit.title}</h3>
+            <p>{benefit.description}</p>
           </div>
-        ))}
-       
-        <p className='bottom-text'>Always source Lion's Mane mushrooms from reputable suppliers to ensure safety and quality. <br />Happy mushrooming!</p>
-      </div>
-    );
-  }
-  
-  export default BenefitsUses;
+        </div>
+      ))}
+     
+      <p className='bottom-text'>Always source Lion's Mane mushrooms from reputable suppliers to ensure safety and quality. <br />Happy mushrooming!</p>
+    </div>
+  );
+}
+
+export default BenefitsUses
