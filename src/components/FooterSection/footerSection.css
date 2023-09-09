@@ -73,8 +73,12 @@
   }
 
   .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
+    
   }
 
   .footer-content p, .footer-disclaimer p, .footer-info p {
@@ -83,6 +87,7 @@
   }
 
   .footer-disclaimer, .footer-info {
+    flex: 1;
     margin-top: 0.3rem;
   }
 
