@@ -5,14 +5,12 @@ import blogPosts from "./blogPosts";
 
 const BlogPost = ({ id, title, image }) => {
   return (
-    <div className='blog'>
-      <div className="blog-post">
-        <Link to={`/blog/${id}`}>
-          <h4>{title}</h4>
-          <img className="blog-image" src={image}  alt="description 1"/>
-        </Link>
-        {/* <p>Published on {date}</p> */}
-      </div>
+    <div className='blog-tile'>
+      <Link to={`/blog/${id}`}>
+        <h4>{title}</h4>
+        <img className="blog-image" src={image} alt="description 1"/>
+      </Link>
+      {/* <p>Published on {date}</p> */}
     </div>
   );
 };

@@ -6,14 +6,14 @@ import nzMush2 from '../../../../images/nzMush2.jpg';
 const BlogOne = () => {
     return (
         <div className="blog-post">
-            <h1>Understanding the Enigmatic Connection: Lion's Mane Mushroom and New Zealand's Hericium novae-zealandiae</h1>
+            <h1>Understanding the Enigmatic Connection: Lion's Mane Mushroom and our own native Hericium novae-zealandiae</h1>
             
             
             
             <div className='content'>
                 <h2>Introduction</h2>
                 <p>
-                The Lion's Mane mushroom (Hericium erinaceus) is a well-known mushroom that is being studied for a variety of potential health benefits. However, there is another mushroom that is closely related to Lion's Mane that is not as well-known: Hericium novae-zealandiae, or Pekepeke-kiore.
+                The Lion's Mane mushroom (Hericium erinaceus) is a well-known mushroom that is being studied for a variety of potential health benefits. However, there is another mushroom that is closely related to Lion's Mane that we have here in NZ: Hericium novae-zealandiae, or Pekepeke-kiore.
                 </p>
                 <img className="blog-image" src={nzMush} alt="description 1"/>
                 <h2>Understanding Lion's Mane and Hericium novae-zealandiae (Pekepeke-kiore)</h2>

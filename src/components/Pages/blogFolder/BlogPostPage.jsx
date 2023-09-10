@@ -15,7 +15,7 @@ const BlogPostPage = () => {
 
   return (
     <div>
-      <div>
+      <div className="blog-tile">
         {/* <h2>{post.title}</h2> */}
         <SpecificComponent /> {/* Render component here */}
         {/* <p>Published on {post.date}</p> */}
