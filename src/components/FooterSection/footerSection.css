@@ -121,6 +121,23 @@
   }
 
   .footer-disclaimer p, .footer-info p {
-    font-size: 9px;  /* Reduced font size for mobile */
+    font-size: 10px;  /* Reduced font size for mobile */
+  }
+
+  @media screen and (max-width: 576px) and (orientation: landscape) {
+    .footer {
+      height: 1.8rem;  /* Reduced height for landscape mode */
+    }
+  
+    .footer-content p, .footer-disclaimer p, .footer-info p {
+      font-size: 10px;  /* Slightly increased font size for landscape mode */
+      line-height: 1; /* Reduced line height */
+    }
+  
+    .footer-disclaimer, .footer-info {
+      margin-top: 0rem; /* Reduced margin to move them closer together */
+    }
   }
 }
+  
+  

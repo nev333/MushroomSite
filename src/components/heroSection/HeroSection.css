@@ -42,10 +42,10 @@
   justify-content: center;
 }
 
-.logo-head img {
+/* .logo-head img {
   width: 250px;
   height: 250px;
-}
+} */
 
 .text-content {
   position: absolute;
@@ -61,6 +61,8 @@
 
 
 .logo-head img {
+  /* width: 100%;
+  max-width: 250px; */
   width: 250px !important;
   height: 250px !important;
   transition: width 0.5s ease, height 0.5s ease, transform 0.3s ease;
