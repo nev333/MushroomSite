@@ -103,6 +103,21 @@
   }
 }
 
+@media screen and (max-width: 992px) and (orientaton: landscape) {
+  .footer {
+    height: 2.5rem;
+  }
+
+  .footer-content p, .footer-disclaimer p, .footer-info p {
+    font-size: 10px;  /* Slightly increased font size for landscape mode */
+    line-height: 1; /* Reduced line height */
+  }
+
+  .footer-disclaimer, .footer-info {
+    margin-top: 0rem; /* Reduced margin to move them closer together */
+  }
+}
+
 @media screen and (max-width: 576px) {  /* Mobile-specific styles */
   .footer {
     height: 2.5rem;

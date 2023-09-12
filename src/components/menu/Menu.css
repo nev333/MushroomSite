@@ -144,4 +144,31 @@
     height: calc(90px);
     transition: width 0.5s ease, height 0.5s ease, transform 0.3s ease;
   }
+
+  @media screen and (max-width: 767px) and (orientation: landscape) {
+  
+    .menu {
+      padding: calc(1.5rem); /* reduced padding */
+      height: 4rem;          /* reduced height */
+    }
+  
+    .logo img {
+      width: calc(60px);     /* reduced logo width */
+      height: calc(60px);    /* reduced logo height */
+    }
+  
+    .menu-items {
+      padding: 1rem;         /* adjusted padding */
+    }
+  
+    .menu-items.active {
+      font-size: 10px;
+    }
+
+    .hamburger-menu div {
+      width: 1.8rem;         /* adjust if you want the hamburger to be smaller */
+      height: 0.2rem;        /* adjust if you want the hamburger lines to be thinner */
+    }
+  }
+
 }
