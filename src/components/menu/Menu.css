@@ -145,7 +145,7 @@
     transition: width 0.5s ease, height 0.5s ease, transform 0.3s ease;
   }
 
-  @media screen and (max-width: 767px) and (orientation: landscape) {
+  @media screen and (max-width: 676px) and (orientation: landscape) {
   
     .menu {
       padding: calc(1.5rem); /* reduced padding */

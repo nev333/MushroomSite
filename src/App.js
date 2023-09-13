@@ -8,11 +8,13 @@ import BlogPostPage from "./components/Pages/blogFolder/BlogPostPage";
 import Menu from "./components/menu/Menu";
 import './App.css';
 import FooterSection from "./components/FooterSection/FooterSection";
+// import { HelmetProvider } from "react-helmet-async";
 
 import ReactGA from 'react-ga';
 
 // Initialize Google Analytics
-ReactGA.initialize('G-0NE2GG0YEZ');
+const TRACKING_ID = "G-0NE2GG0YEZ"
+ReactGA.initialize(TRACKING_ID);
 
 // This function records a pageview each time the route changes.
 function logPageView() {
@@ -33,6 +35,7 @@ function ScrollToTop() {
 
 function App() {
   const [isMenuShrunk, setIsMenuShrunk] = useState(false);
+  // const [title, setTitle] = useState("Lion's Mane Mushroom NZ");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,9 +53,17 @@ function App() {
     };
   }, [isMenuShrunk]);
 
+  // useEffect(() => {
+  //   const currentLocation = window.location.pathname;
+  //   setTitle(currentLocation === "/" ? "Lion's Mane Mushroom NZ" : currentLocation);
+  // }, [window.location.pathname]);
+
   return (
     <Router>
       <div className={`App ${isMenuShrunk ? 'shrink' : ''}`}>
+        {/* <HelmetProvider>
+          <title>{title}</title> */}
+        
         <Menu />
         <ScrollToTop />
         <div className="content">
@@ -68,6 +79,7 @@ function App() {
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        {/* </HelmetProvider> */}
       </div>
     </Router>
   );
