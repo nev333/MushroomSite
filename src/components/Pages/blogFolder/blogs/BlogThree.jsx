@@ -1,7 +1,8 @@
 import React from "react";
 import './blogPost.css';
-import lionsMane2 from '../../../../images/lionsMane2.jpg';
+// import lionsMane2 from '../../../../images/lionsMane2.webp';
 import ReactPlayer from 'react-player';
+import LM2 from '../../../../images/lionsMane2.webp'
 
 const BlogThree = () => {
   return (
@@ -15,7 +16,7 @@ const BlogThree = () => {
         <p>
           Lion's Mane mushrooms are native to North America, Europe, and Asia, but they can also be grown in New Zealand. In fact, New Zealand is a great place to grow Lion's Mane mushrooms because the climate is cool and humid, which are ideal conditions for these mushrooms.
         </p>
-        <img className="blog-image" src={lionsMane2} alt="description 1"/>
+        <img className="blog-image" src={LM2} alt="description 1"/>
         <h2>How to Grow Lion's Mane Mushrooms in New Zealand</h2>
         <p>
           There are a few different ways to grow Lion's Mane mushrooms in New Zealand. One way is to grow them on logs. This is a traditional method of growing mushrooms, and it is a relatively easy way to do it. To grow Lion's Mane mushrooms on logs, you will need to find a suitable log. The log should be a hardwood log that is at least 6 inches in diameter and 2 feet long. You will also need to drill holes in the log, about 1 inch deep and 2 inches apart. Once you have drilled the holes, you can inoculate the log with Lion's Mane mushroom spawn.

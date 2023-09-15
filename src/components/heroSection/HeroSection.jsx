@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './HeroSection.css';
-import logo from "../../images/newLogo.png";
+// import logo from "../../images/newLogo.webp";
+import Logo from "../../images/newLogo.webp";
 
 const HeroSection = () => {
   const handleNavClick = (target) => {
@@ -15,7 +16,7 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="background-image"></div>
       <div className='logo-head'>
-        <img src={logo} alt='logo Head'/>
+        <img src={Logo} alt='logo Head'/>
       </div>
       <div className='text-content'>
         <h1>Lion's Mane Mushroom NZ</h1>

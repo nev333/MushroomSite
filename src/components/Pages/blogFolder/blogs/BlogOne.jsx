@@ -1,7 +1,7 @@
-import nzMush from '../../../../images/CoralTooth2.jpg';
+import nzMush from '../../../../images/CoralTooth2.webp';
 import React from "react";
 import './blogPost.css';
-import nzMush2 from '../../../../images/nzMush2.jpg';
+import nzMush2 from '../../../../images/nzMush2.webp';
 
 const BlogOne = () => {
     return (

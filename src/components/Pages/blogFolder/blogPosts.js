@@ -1,9 +1,9 @@
 import BlogTwo from './blogs/BlogTwo';
 import BlogOne from './blogs/BlogOne'; // ensure the path is correct
 import BlogThree from './blogs/BlogThree'
-import Chef from '../../../images/Chef.png'
-import NzMush from '../../../images/nzMush2.jpg'
-import LMane2 from '../../../images/lionsMane2.jpg'
+import Chef from '../../../images/Chef.webp'
+import NzMush from '../../../images/nzMush2.webp'
+import LMane2 from '../../../images/lionsMane2.webp'
 
 const blogPosts = [
   {

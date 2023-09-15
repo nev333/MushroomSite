@@ -1,7 +1,8 @@
 import React from "react";
 import './blogPost.css';
-import Chef from '../../../../images/Chef.png';
-import nzMush2 from '../../../../images/nzMush2.jpg';
+import Chef from '../../../../images/Chef.webp';
+// import nzMush2 from '../../../../images/nzMush2.webp';
+import Mush from '../../../../images/nzMush2.webp';
 
 const BlogTwo = () => {
   return (
@@ -18,7 +19,7 @@ const BlogTwo = () => {
           Lion's Mane mushrooms are a versatile ingredient that can be cooked in a variety of ways. They can be sauteed, roasted, steamed, or even eaten raw.
         </p>
         <div className="flex-container">
-          <img className="blog-image-small" src={nzMush2} alt="description 2"/>
+          <img className="blog-image-small" src={Mush} alt="description 2"/>
           
             <ul>
               <li>When sauteing, start with a hot pan and a small amount of oil. Cook the mushrooms over medium heat until they are browned on all sides.</li>

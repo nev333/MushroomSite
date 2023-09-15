@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import lions from "../../../images/lionsMane2.jpg"
-import coral from "../../../images/CoralTooth2.jpg"
+import lions from "../../../images/lionsMane2.webp"
+import coral from "../../../images/CoralTooth2.webp"
 
 
 const About = () => {
