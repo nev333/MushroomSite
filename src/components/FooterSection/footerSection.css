@@ -101,10 +101,21 @@
   }
 }
 
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  
+  .footer {
+    height: 2.5rem;
+  }
+  
+  .footer-info {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 576px) {
   /* Mobile-specific styles */
   .footer {
-    height: 0.5rem;
+    height: 0.9rem;
   }
 
   .footer-info {
@@ -128,9 +139,8 @@
     display: none;
   }
 
-  .footer-disclaimer p,
-  .footer-info p {
-    font-size: 10px;
+  .footer-disclaimer p {
+    font-size: 12px;
   }
 }
 
@@ -139,9 +149,12 @@
     height: 0.8rem; /* Reduced height for landscape mode */
   }
 
+  .footer-info {
+    display: none;
+  }
+
   .footer-content p,
-  .footer-disclaimer p,
-  .footer-info p {
+  .footer-disclaimer p {
     font-size: 10px; /* Slightly increased font size for landscape mode */
     line-height: 1; /* Reduced line height */
   }
