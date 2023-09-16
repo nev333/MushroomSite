@@ -104,6 +104,36 @@
 }
 
 /* Tablet styles */
+
+@media only screen and (max-width: 1245px) {
+  
+    .hero-section {
+      height: 500px;
+    }
+  
+    .logo-head img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .text-content h1 {
+      font-size: 36px;
+      margin-top: 110px;
+    }
+  
+    .button-one {
+      display: none;
+      
+    }
+  
+    .text-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+
 @media only screen and (max-width: 768px) {
   .hero-section {
     height: 500px;
@@ -151,4 +181,27 @@
     font-size: 16px;
     margin-top: 3px;
   }
+
+  @media only screen and (max-width: 386px) {
+    .hero-section {
+      height: 700px;
+    }
+  
+    .logo-head img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 150px;
+    }
+  
+    .text-content h1 {
+      font-size: 28px;
+      margin-bottom: 150px;
+    }
+  
+    .text-content p {
+      font-size: 16px;
+      margin-bottom: 100px;
+    }
+  }
+
 }
