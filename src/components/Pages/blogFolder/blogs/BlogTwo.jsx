@@ -11,7 +11,7 @@ const BlogTwo = () => {
       <div className="content">
         <h2>Introduction</h2>
         <p>
-          Lion's Mane mushrooms (Hericium erinaceus) are a type of fungus that is known for their health benefits. They are a good source of antioxidants, and they have been shown to improve cognitive function, reduce anxiety and depression, and boost the immune system.
+          Lion's Mane mushrooms (Hericium erinaceus) are a type of fungus that is known for their potential health benefits. They are a good source of antioxidants, and are being studied for their potential to cognitive function, reduce anxiety and depression, and boost the immune system.
         </p>
         <img className="blog-image" src={Chef} alt="description 1"/>
         <h2>How to Cook Lion's Mane Mushrooms</h2>
