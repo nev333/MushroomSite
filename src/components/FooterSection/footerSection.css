@@ -1,17 +1,15 @@
 .footer {
   position: fixed;
-  
-  width: 100%;
   bottom: 0;
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  left: 0;
+  width: 100%;
   background-color: #e4dfc9;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+  z-index: 1000;
+  transform: translate(0, 0);
   transition: padding 0.5s ease;
-  height: 2rem;
-  overflow-x: hidden;
 }
 
 .container {
@@ -49,7 +47,10 @@
   margin-left: 60px;
 }
 
-.footer-content p, .footer-menu li a, .footer-disclaimer p, .footer-info p {
+.footer-content p,
+.footer-menu li a,
+.footer-disclaimer p,
+.footer-info p {
   margin: 0;
   color: #333;
   font-size: 15px;
@@ -67,9 +68,9 @@
 @media screen and (max-width: 992px) {
   .footer {
     height: 4.5rem;
-    
+    padding-bottom: 1rem;
   }
-  
+
   .footer-menu {
     display: none;
   }
@@ -82,78 +83,71 @@
     text-align: center;
   }
 
-  .footer-content p, .footer-disclaimer p, .footer-info p {
+  .footer-content p,
+  .footer-disclaimer p,
+  .footer-info p {
     line-height: 1.2;
     margin-bottom: 0.3rem;
   }
 
-  .footer-disclaimer, .footer-info {
+  .footer-disclaimer,
+  .footer-info {
     flex: 1;
     margin-top: 0.3rem;
     margin-left: 0;
     margin-right: 0;
     width: 80%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Mobile-specific styles */
+  .footer {
+    height: 0.5rem;
   }
 
   .footer-info {
-    text-align: center;
+    display: none;
   }
 
-  .footer {
-    padding-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 992px) and (orientaton: landscape) {
-  .footer {
-    height: 2.5rem;
-  }
-
-  .footer-content p, .footer-disclaimer p, .footer-info p {
-    font-size: 10px;  /* Slightly increased font size for landscape mode */
-    line-height: 1; /* Reduced line height */
-  }
-
-  .footer-disclaimer, .footer-info {
-    margin-top: 0rem; /* Reduced margin to move them closer together */
-  }
-}
-
-@media screen and (max-width: 576px) {  /* Mobile-specific styles */
-  .footer {
-    height: 2.5rem;
-  }
-
-  .footer-disclaimer, .footer-info {
-    flex: 1;
-    margin-top: 0.3rem;
+  .footer-disclaimer {
+    position: fixed;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 0.2rem;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+    padding: 0.5rem; /* Add some padding for spacing */
   }
 
   .footer-menu {
     display: none;
   }
 
-  .footer-disclaimer p, .footer-info p {
-    font-size: 10px;  /* Reduced font size for mobile */
-  }
-
-  @media screen and (max-width: 576px) and (orientation: landscape) {
-    .footer {
-      height: 1.8rem;  /* Reduced height for landscape mode */
-    }
-  
-    .footer-content p, .footer-disclaimer p, .footer-info p {
-      font-size: 10px;  /* Slightly increased font size for landscape mode */
-      line-height: 1; /* Reduced line height */
-    }
-  
-    .footer-disclaimer, .footer-info {
-      margin-top: 0rem; /* Reduced margin to move them closer together */
-    }
+  .footer-disclaimer p,
+  .footer-info p {
+    font-size: 10px;
   }
 }
-  
-  
+
+@media screen and (max-width: 576px) and (orientation: landscape) {
+  .footer {
+    height: 0.8rem; /* Reduced height for landscape mode */
+  }
+
+  .footer-content p,
+  .footer-disclaimer p,
+  .footer-info p {
+    font-size: 10px; /* Slightly increased font size for landscape mode */
+    line-height: 1; /* Reduced line height */
+  }
+
+  .footer-disclaimer,
+  .footer-info {
+    margin-top: 0rem; /* Reduced margin to move them closer together */
+  }
+}

@@ -4,6 +4,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  margin-bottom: 60px;
 }
 
 .about-section h2 {
@@ -47,6 +48,7 @@
 
   .container {
     margin-bottom: 60px;
+
   }  
   
   .about-section {
@@ -81,7 +83,7 @@
     
     .about-section {
       padding: 10px;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       
     }
   
@@ -106,6 +108,8 @@
       font-size: 16px;
       margin-bottom: 15px;
     }
+
+
 
   }
 
