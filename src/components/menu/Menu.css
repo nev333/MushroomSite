@@ -169,6 +169,18 @@
       width: 1.8rem;         /* adjust if you want the hamburger to be smaller */
       height: 0.2rem;        /* adjust if you want the hamburger lines to be thinner */
     }
+
+    
+    }
+
+    @media screen and (max-width: 379px) {
+      .menu-items.active {
+        transform: translateX(30%);
+      }
+
+      .menu-items.active {
+        font-size: 14px;
+      }
   }
 
 }

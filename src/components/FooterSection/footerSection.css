@@ -104,12 +104,26 @@
 @media screen and (max-width: 992px) and (orientation: landscape) {
   
   .footer {
-    height: 2.5rem;
+    height: 1.5rem;
   }
   
   .footer-info {
     display: none;
   }
+
+  .footer-disclaimer {
+    position: fixed;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 0.9rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0.5rem; /* Add some padding for spacing */
+  }
+
 }
 
 @media screen and (max-width: 576px) {
